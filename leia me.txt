@@ -1,0 +1,30 @@
+Codigos de verções:
+*Para criar um txt com os dados freeze
+pip freeze > requirements.txt
+
+*Para pegar apenas as verções do Venv
+venv\Scripts\pip3 freeze> requirements.txt
+
+*Importa as verções do TXT para o Venv
+venv\Scripts\pip3 install -r requirements2.txt
+
+
+
+Comandos de Flask:
+*Rodar o codigo
+flask run
+
+*Rodar o codigo com debug
+flask --debug run
+
+*inicia o banco
+flask db init
+
+*Para fazer mudanças no banco
+flask db migrate
+flask db upgrade
+
+Pasta:
+Templates: HTML
+Satatic: Arquivos estaticos
+Models: Arquivos de DB
